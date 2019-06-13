@@ -1,0 +1,223 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-kerning: auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+  }
+  html, body {
+    margin: 0;
+    background-image: url("background.jpg");
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+  }
+  a {
+    outline: none;
+    text-decoration: none;
+  }
+  p + p {
+    margin-top: .75em;
+  }
+  .clearfix {
+    clear: both;
+  }
+  
+  
+  header {
+    background: white;
+    border: 1px solid #ccc;
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .home-link{
+    background-color: #4aaaa5;
+    padding: 15px;
+  }
+  .home-link h1 {
+    color: #fff;
+    font-size: 32px;
+  }
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navigation .link {
+    display: inline-block;
+    margin: 23px 0;
+    padding: 0 15px 0 13px;
+    border-right: 1px solid #ccc;
+  }
+  .navigation .link:last-child {
+    border: none;
+  }
+  
+  
+  
+  .section-container {
+    margin-top: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 25px;
+  }
+  .section-container h2 {
+    display: block;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #ddd;
+  }
+  .At-the-Beach {
+    float: left;
+    padding: 0 15px 5px 0;
+  }
+  .me img{
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  footer {
+    position: relative;
+    text-align: center;
+    padding: 2em 0 1em;
+    background-color: #666;
+  
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .copyright {
+    display: inline-block;
+    margin: 0 auto;
+    color: #fff;
+  }
+  footer::before {
+    content: '';
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 5px;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+@media screen and (max-width: 980px){
+   *{
+      margin: 0px;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-kerning: auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+  }
+  html, body {
+    margin: 0;
+    background-image: url("background.jpg");
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+  }
+  a {
+    outline: none;
+    text-decoration: none;
+  }
+  p + p {
+    margin-top: .75em;
+  }
+  .clearfix {
+    clear: both;
+  }
+  
+  
+  header {
+    background: white;
+    border: 1px solid #ccc;
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .home-link{
+    background-color: #4aaaa5;
+    padding: 15px;
+  }
+  .home-link h1 {
+    color: #fff;
+    font-size: 32px;
+  }
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navigation .link {
+    display: inline-block;
+    margin: 23px 0;
+    padding: 0 15px 0 13px;
+    border-right: 1px solid #ccc;
+  }
+  .navigation .link:last-child {
+    border: none;
+  }
+  
+  
+  
+  .section-container {
+    margin-top: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 25px;
+  }
+  .section-container h2 {
+    display: block;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #ddd;
+  }
+  .At-the-Beach {
+    float: left;
+    padding: 0 15px 5px 0;
+  }
+  .me img{
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  footer {
+    position: relative;
+    text-align: center;
+    padding: 2em 0 1em;
+    background-color: #666;
+  
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .copyright {
+    display: inline-block;
+    margin: 0 auto;
+    color: #fff;
+  }
+  footer::before {
+    content: '';
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 5px;
+    top: 0;
+    left: 0;
+    right: 0;
+
+  }
